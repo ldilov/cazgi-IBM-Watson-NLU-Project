@@ -28,6 +28,10 @@ class App extends React.Component {
     });
   };
 
+  componentDidMount() {
+    document.title = "Sentiment Analyzer"
+  }
+
   sendForSentimentAnalysis = () => {
     this.setState({sentiment: true});
     let url = '.';

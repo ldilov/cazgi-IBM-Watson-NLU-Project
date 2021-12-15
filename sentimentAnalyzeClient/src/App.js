@@ -45,10 +45,10 @@ class App extends React.Component {
         let color = 'white';
         switch (output) {
           case 'positive':
-            color = 'black';
+            color = 'green';
             break;
           case 'negative':
-            color = 'black';
+            color = 'red';
             break;
           default:
             color = 'black';
